@@ -11516,6 +11516,12 @@ pre .code {
   background-attachment: fixed;
   color: #fff;
 }
+@media (max-width: 768px) {
+  .header {
+    background-size: contain;
+    background-attachment: scroll; /* Prevents fixed background issues */
+  }
+}
 
 .header .container {
   position: relative;
